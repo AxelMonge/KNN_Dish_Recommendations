@@ -1,4 +1,4 @@
-# Assumes yelp_academic_dataset_business.json in same directory.
+# Assumes yelp_academic_dataset_business.json in same directory. Github wont let me upload the dataset
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from surprise import Dataset, Reader, KNNWithMeans
