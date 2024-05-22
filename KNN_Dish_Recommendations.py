@@ -1,4 +1,4 @@
-# Assumes yelp_academic_dataset_business.json in same directory. Github wont let me upload the dataset
+# Assumes yelp_academic_dataset_business.json in same directory. Github wont let me upload the dataset because if its size. Download the business dataset from https://www.yelp.com/dataset
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from surprise import Dataset, Reader, KNNWithMeans
